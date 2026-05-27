@@ -1,5 +1,6 @@
-# 13-helloGH-mschweitzer
+# 13-NumberWizard-mschweitzer
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+## Beschreibung
 
-## Hello GitHub: erstes Repository online angelegt.
+Der Number-Wizard errät deine Nummer in maximal 6 Versuchen!
+
