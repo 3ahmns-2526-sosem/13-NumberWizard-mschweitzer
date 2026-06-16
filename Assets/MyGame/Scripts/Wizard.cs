@@ -30,4 +30,11 @@ public class Wizard : MonoBehaviour
         guess = (min + max) / 2;
         guessText.text = ("I guess... " + guess + "!");
     }
+
+    public void Lower()
+    {
+        max = guess - 1;
+        guess = (max + min) / 2;
+        guessText.text = ("I guess... " + guess + "!");
+    }
 }
