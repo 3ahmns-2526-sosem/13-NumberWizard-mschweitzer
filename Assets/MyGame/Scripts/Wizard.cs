@@ -24,4 +24,10 @@ public class Wizard : MonoBehaviour
         higher.interactable = false;
         correct.interactable = false;
     }
+    public void Higher()
+    {
+        min = guess + 1;
+        guess = (min + max) / 2;
+        guessText.text = ("I guess... " + guess + "!");
+    }
 }
