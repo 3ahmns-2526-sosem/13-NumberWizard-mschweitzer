@@ -41,4 +41,14 @@ public class Wizard : MonoBehaviour
         guessText.text = ("I guess... " + guess + "!");
         // max Wert wird angepasst, der maximale guess-Wert kann nicht größer als der letzte guess sein.
     }
+    public void Restart()
+    {
+        min = 0;
+        max = 100;
+        lower.interactable = true;
+        higher.interactable = true;
+        correct.interactable = true;
+        guess = (min + max) / 2;
+        guessText.text = ("I guess... " + guess + "!");
+    }
 }
